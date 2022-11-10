@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+header {
+    height: 65px;
+    background: #879BAD;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+}
+
+body {
+    background-color: #ddd;
+}
+
+.container {
+    margin: 35vh auto 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.timer span {
+    display: block;
+    font-size: 60px;
+    padding: 20px 0;
+}
+
+.btns button {
+    width: 115px;
+    padding: 10px 0;
+    margin: 0 5px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: #ddd;
+    box-shadow: 0 20px 30px #aaa;
+}
+
+.btns button:hover{
+    transition: .7s;
+    background-color: #f33;
+    box-shadow: 0 0 30px #999;
+}
