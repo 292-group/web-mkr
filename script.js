@@ -2,7 +2,7 @@ let watch = document.getElementById('watch');
 let startBtn = document.getElementById('start');
 let stopBtn = document.getElementById('stop');
 let resetBtn = document.getElementById('reset');
-let checkBtn = true;
+let checkBtn = true; //btn for checking if 1 timer was exists,and block creating other
 let timer;
 
 let timerArr = [0, 0, 0]; //hour,minute and second
