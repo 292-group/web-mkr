@@ -1,0 +1,42 @@
+body {
+    font-family: 'Anaheim';
+    font-size: 1.2em;
+  }  
+  #outside {
+    background-color: rgb(255, 255, 255);
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }  
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: capitalize;
+  }  
+  form {
+    margin: 0 auto;
+    width: 70%;
+    padding: 1em;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 1em;    
+  }
+  fieldset { 
+    border:1px solid lightgray;
+    margin: 10px;
+   }   
+  div + div {
+    margin-top: 1em;
+    }  
+   */  
+  input, textarea {
+    width: 200px;  
+    border: 1px solid #999;
+  }  
+  textarea {
+    vertical-align: top;  
+    height: 5em;  
+    resize: vertical;
+  }
+  #submitbutton {
+    display: flex; 
+    justify-content: center;
+  }
