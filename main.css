@@ -1,0 +1,26 @@
+.btn.red{
+    background-color: red;
+    color: white;
+    content: 'fdgjdslnvff';
+}
+.btn.orange{
+    background-color: orange;
+    color: white;
+}
+.btn.green{
+    background-color: green;
+    color: white;
+}
+.btn.palevioletred{
+    background-color: palevioletred;
+    color: white;
+}
+.btn.black{
+    background-color: black;
+    color: white;
+}
+.btn{
+    border: solid white 0px;
+    border-radius: 10px;
+    font-size: 200px;
+}
