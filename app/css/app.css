@@ -1,0 +1,33 @@
+body {
+    background: #cecece;
+  }
+  
+  .container {
+    width: 40%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clock-face {
+    width: 10rem;
+    height: 1rem;
+    border: solid 2px red;
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn {
+    margin-top: 1rem;
+  }
+  
+  button {
+    border-radius: 5px;
+    width: 4rem;
+  }
+  
