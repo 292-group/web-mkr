@@ -1,3 +1,8 @@
+import "./css/app.css";
+import "./css/numb.css";
+import "./css/tab.css";
+import "./css/main.css";
+
 'use strict';
 
 // select DOM elements
@@ -121,10 +126,10 @@ function randomInt() {
     table.empty(); 
  
     let index = 0; 
-    for (r = 0; r < 5; ++r) { 
+    for (let r = 0; r < 5; ++r) { 
         let row = $('<tr>'); 
  
-        for (c = 0; c < 5; ++c) { 
+        for (let c = 0; c < 5; ++c) { 
  
             row.append('<td>' + Number[index++] + '</td>'); 
  
