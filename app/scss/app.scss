@@ -1,0 +1,27 @@
+@import "reset";
+@import "media-query";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.bg-white{
+  background: #EAEAEA;
+}
+.text-white{
+  color: #EAEAEA;
+}
+.card {
+  border-radius: 0 !important;
+}
+.bg-black{
+  background: #333333;
+}
+.bg-blue{
+  background: #2690D4;
+}
+.text-header{
+  font-weight: 800;
+}
+.card-text{
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+
