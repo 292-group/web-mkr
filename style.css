@@ -1,0 +1,26 @@
+body {
+    background-color: rebeccapurple;
+}
+.button_list button {
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    border: none;
+}
+button:hover {
+    transform: translateX(1%);
+    transition: 0.3s;
+    box-shadow: 0px 0px 4px bisque, 0px 2px 2px bisque;
+}
+.button_list {
+    position: absolute;
+    left: 20%;
+    top: 25%;
+}
+.button_start {background-color: purple;}
+.button_progress {background-color: yellow; visibility: hidden;}
+.button_pause {background-color: red; visibility: hidden;}
+.button_disc {background-color: coral; visibility: hidden;}
+.button_finish {background-color: black; visibility: hidden;}
